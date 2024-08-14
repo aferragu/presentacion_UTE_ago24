@@ -1,0 +1,82 @@
+/* @theme my-theme */
+
+@import 'default';
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://unpkg.com/tailwindcss@^2/dist/utilities.min.css');
+
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@400;600&display=swap');
+
+:root {
+  --azulcito: rgb(20,50,100);
+  --azulcito60: rgb(20,50,100,.6);
+}
+
+/* General properties */
+section {
+  /* background: linear-gradient(135deg, #f5f7fa 0%, #9baece 100%);*/
+  font-family: "Asap", serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+}
+
+footer {
+  font-size: 14pt;
+  color: var(--azulcito)
+}
+
+section::after {
+  font-size: 14pt;
+  color: var(--azulcito60)
+}
+
+/* Title Slide properties */
+section.titleSlide {
+  text-align: center;
+}
+section.titleSlide h1 {
+  color: var(--azulcito);
+  font-size: 56pt;
+}
+
+section.titleSlide footer {
+  margin-left:50px;
+}
+
+/* Normal Slide layout */
+
+section.normalSlide h1 { 
+  color: var(--azulcito);
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  font-size: 1.8em;
+}
+
+section.normalSlide h2 { 
+  font-size: 1.5em;
+}
+
+blockquote {
+  color: inherit;
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  
+  padding: 0px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.centered {
+  vertical-align: middle;
+}
+
+img { margin: 0px }
