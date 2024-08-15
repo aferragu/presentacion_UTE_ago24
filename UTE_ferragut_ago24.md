@@ -3,11 +3,11 @@ title: "Optimización en redes de energía"
 author: "Andres Ferragut"
 marp: true
 theme: my-theme
-footer: Andres Ferragut, Universidad ORT Uruguay. Julio 2024
+footer: Andres Ferragut, Universidad ORT Uruguay. Agosto 2024
 math: katex
 transition: fade
 ---
-<!-- _footer: ![sponsors](images/sponsors.png) -->
+<!-- _footer: ![h:100](images/logoort.png) --> 
 <!-- _paginate: false -->
 <!-- _class: titleSlide -->
 
@@ -17,7 +17,7 @@ transition: fade
 
 ## Andrés Ferragut - Universidad ORT Uruguay
 
-### Fondo Sectorial de Energía, ANII, Julio 2024
+### Foro de Descarbonización y Segunda Transición Energética. Agosto 2024.
 
 ---
 <!-- paginate: true -->
@@ -111,56 +111,17 @@ Universidad ORT Uruguay
 
 ---
 
-# Proyectos FSE
+# Proyectos y Estudiantes
 
 
-* **Mercados, subastas y nuevas tecnologías en el sector eléctrico uruguayo**. 2012-2014. En conjunto con IIE/Fing/UdelaR.
+* Múltiples proyectos financiados a través del Fondo Sectorial de Energía (DNE-ANCAP-UTE-ANII) desde 2012.
 
-* **Redes eléctricas inteligentes y sus mercados en presencia de energías renovables**. 2014-2016. En conjunto con IIE/Fing/UdelaR.
+  * **Gestión de recarga de vehículos eléctricos y su integración inteligente con la red eléctrica**, 2019-2021.
 
-* **Operación óptima de cargas inteligentes, generación renovable y recursos de almacenamiento en redes eléctricas**. 2017-2019.
+  * **Red de recarga adaptativa para vehículos eléctricos**. 2021-2022.
 
-* **Optimización del almacenamiento de energía en redes eléctricas**, 2018-2020. En conjunto con IIE/Fing/UdelaR.
-
----
-
-# Proyectos FSE
-
-* **Gestión de recarga de vehículos eléctricos y su integración inteligente con la red eléctrica**, 2019-2021.
-
-* **Integración y control de almacenamiento distribuido en sistemas eléctricos**, 
-2020-2022. En conjunto con IIE/Fing/UdelaR..
-
-* **Red de recarga adaptativa para vehículos eléctricos**. 2021-2022.
-
----
-
-# Otros proyectos de energía
-
- 
- * **Flujo de carga óptimo y almacenamiento de energía para redes eléctricas dinámicas**, 2016-2017 - Conjunto con UdelaR y UTE.
-
- * **Flujo de carga óptimo para incorporación de energías renovables**. Proyecto BID-MIEM-Vinculación con la Diáspora Calificada, 2016-2017.
-
- * **Optimización del almacenamiento de energía en mercados eléctricos con alta penetración de renovables**. ANII - PPI, 2016-2018. Con CSI Ingenieros.
-
- * **Optimización y Modelos Estocásticos para Planificación y Despacho en la Red Eléctrica**, 2019-2020 - Conjunto con UdelaR y UTE.
-
----
-
-# Estudiantes y colaboradores
-
-* Federico Bliman (master, actualmente doctorando en UdelaR).
-* Martín Zeballos (actualmente en CSI-CIEMSA).
-* Rodrigo Porteiro (master, actualmente en UTE).
-* Camila Martínez (actualmente doctorando en Ecole de Mines - Paris).
-* Lucas Narbondo (actualmente doctorando en TU/Delft).
-* Agustín Castellano (master, actualmente doctorando en Johns Hopkins).
-* Sebastián Alaggia (Ing. en UTE).
-* Diego Acuña (Ing. en UTE).
-* Emiliano Espíndola (posgrado en ingeniería, CTO de RedeLocker)
-
-Mantenemos además colaboración activa con UdelaR y universidades del extranjero (Caltech, Johns Hopkins, Georgia Tech).
+* Una decena de estudiantes y graduados del grupo en estos años.
+* Mantenemos además colaboración activa con UdelaR y universidades del extranjero (Caltech, Johns Hopkins, Georgia Tech).
 
 ---
 
@@ -270,17 +231,31 @@ Contraintuitivo, pero aproxima perfectamente el algoritmo anterior *sin necesida
 
 <br />
 
-**Solución:** diseñamos un algoritmo de Machine Learning para estimar la demanda [Espindola, F., INFORMS APS 2023] y luego resolver el problema de optimización resultante [Paganini et al., Allerton 2023, TCNS submitted].
+**Solución:** diseñamos un algoritmo de Machine Learning para estimar la demanda [Espindola, F., INFORMS APS 2023] 
 
 ---
 
-# Otros aportes:
+# Ejemplo: asignación dinámica de usuarios
 
- * Creamos un algoritmo de **programación estocástica dual multi-escala** para resolver el problema de la optimización conjunta de recurso hídrico y baterías en presencia de renovables [R. Porteiro, Tesis Maestría].
- 
- * Creamos algoritmos basados en **relajaciones convexas** para calcular el flujo de carga óptimo en una red de distribución. [Software COMODIN, en testing actualmente en UTE].
- 
- * Hicimos aportes a la **regulación de frecuencia**, al control de **demand-response**, así como a modelos de despacho conjunto térmico-hídrico-baterías.
+**Idea:** estudiar cómo funciona la congestión en una red *urbana* de cargadores.
+
+* Los usuarios eligen el cargador más cercano?
+* O eligen uno que les proporcione más tiempo de carga/energía?
+  
+
+**Pregunta:** Si dejamos a los usuarios elegir de manera egoísta, ¿se llega a un equilibrio? ¿Es eficiente?
+
+
+**Resultado:** Probamos que las decisiones egoístas alcanzan un equilibrio y caracterizamos su ineficiencia.
+
+---
+
+# Ejemplo: asignación dinámica de usuarios
+
+<div style="text-align:center">
+<video controls="controls" height="500px" width="1000px" src="images/stochastic.mp4" />
+</div>
+
 
 ---
 
@@ -294,7 +269,8 @@ Contraintuitivo, pero aproxima perfectamente el algoritmo anterior *sin necesida
 
 * Debemos incorporar algoritmos y matemática para llevarlo a cabo.
   
-* El FSE ha sido un gran instrumento para apoyar esta investigación y formar RRHH en estos temas.
+* El desafío ahora es incorporar la investigación en el desarrollo de nuevos proyectos.
+  
 </div>
 <div style="text-align:right">
 <br />
@@ -307,7 +283,7 @@ Contraintuitivo, pero aproxima perfectamente el algoritmo anterior *sin necesida
 
 ---
 
-<!-- _footer: ![sponsors](images/sponsors.png) -->
+<!-- _footer: ![h:100](images/logoort.png) --> 
 <!-- _paginate: false -->
 <!-- _class: titleSlide -->
 

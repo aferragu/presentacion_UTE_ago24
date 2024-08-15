@@ -27,6 +27,11 @@ footer {
   color: var(--azulcito)
 }
 
+footer img {
+  float: right;
+  padding-left: 18em;
+}
+
 section::after {
   font-size: 14pt;
   color: var(--azulcito60)
