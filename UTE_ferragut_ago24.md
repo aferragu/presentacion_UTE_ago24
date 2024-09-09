@@ -7,7 +7,7 @@ footer: Andres Ferragut, Universidad ORT Uruguay. Agosto 2024
 math: katex
 transition: fade
 ---
-<!-- _footer: ![h:100](images/logoort.png) --> 
+<!-- _footer: ![h:90](images/logoort.png) --> 
 <!-- _paginate: false -->
 <!-- _class: titleSlide -->
 
@@ -17,7 +17,8 @@ transition: fade
 
 ## Andrés Ferragut - Universidad ORT Uruguay
 
-### Foro de Descarbonización y Segunda Transición Energética. Agosto 2024.
+### Foro de 2a. transición energética: hacia la descarbonización de la demanda
+### Agosto 2024.
 
 ---
 <!-- paginate: true -->
@@ -170,9 +171,7 @@ Mejor...pero tengo que confiar en los usuarios...
 >**Solución 2:**
 > Cargarlos en orden **inverso al de llegada.**
 
-Contraintuitivo, pero aproxima perfectamente el algoritmo anterior *sin necesidad de saber el tiempo de permanencia* [Ferragut et al., INFORMS APS 2019]
-
-<br />
+Contraintuitivo, pero aproxima perfectamente el algoritmo anterior *sin necesidad de saber el tiempo de permanencia*.
 
 <div class="grid grid-cols-2 gap-10">
 <div style="text-align:center">
@@ -197,8 +196,8 @@ Contraintuitivo, pero aproxima perfectamente el algoritmo anterior *sin necesida
 * Ejemplo: en Canadá, 95% del tiempo los vehículos están *parados*.
 
 * Podemos *optimizar* la gestión de carga para minimizar el impacto en la red:
-  * Disminuir picos [Nakahira et al. Operations Research 2022]
-  * Desbalance trifásico, [D. Acuña et al. e-Energy 2022], [Ferragut et al. Performance 2023].
+  * Disminuir picos de potencia.
+  * Reducir el desbalance trifásico.
 </div>
 
 <div style="text-align:right">
@@ -231,7 +230,7 @@ Contraintuitivo, pero aproxima perfectamente el algoritmo anterior *sin necesida
 
 <br />
 
-**Solución:** diseñamos un algoritmo de Machine Learning para estimar la demanda [Espindola, F., INFORMS APS 2023] 
+**Solución:** diseñamos un algoritmo de Machine Learning para estimar la demanda, y calculamos los puntos de ubicación óptima de cargadores.
 
 ---
 
@@ -283,7 +282,7 @@ Contraintuitivo, pero aproxima perfectamente el algoritmo anterior *sin necesida
 
 ---
 
-<!-- _footer: ![h:100](images/logoort.png) --> 
+<!-- _footer: ![h:120](images/logoort.png) --> 
 <!-- _paginate: false -->
 <!-- _class: titleSlide -->
 
